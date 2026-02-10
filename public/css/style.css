@@ -1,0 +1,212 @@
+html, body{
+
+    font-size: 17px!important;
+}
+
+.nav-sidebar>.nav-item .nav-icon.fa, .nav-sidebar>.nav-item .nav-icon.fab, .nav-sidebar>.nav-item .nav-icon.far, .nav-sidebar>.nav-item .nav-icon.fas, .nav-sidebar>.nav-item .nav-icon.glyphicon, .nav-sidebar>.nav-item .nav-icon.ion {
+    font-size: 16px!important;
+}
+
+.btn-morado {
+    background: #0177c1;
+    color: #fff!important;
+    border-radius: .6rem;
+    font-weight: bold;
+}
+
+.card {
+    border-radius: .8rem;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
+}
+
+.login-card-body{
+	border-radius: .8rem;
+}
+
+.btn-naranja {
+    background: #f2a413;
+    color: #fff;
+    border-radius: .6rem;
+    font-weight: bold;
+}
+
+.card-naranja:not(.card-outline)>.card-header {
+    background-color: #f2a413;
+    color: white;
+}
+
+.card-morado:not(.card-outline)>.card-header {
+    background-color: #0177c1;
+    color: white;
+}
+
+.card-naranja .btn-tool, .card-morado .btn-tool{
+	color: white;
+}
+
+button:hover{
+	color: white!important;
+}
+
+table.dataTable tbody td {
+  vertical-align: middle;
+}
+
+button.swal2-cancel.btn.btn-naranja {
+    margin-right: 10px;
+}
+
+.layout-footer-fixed .wrapper .main-footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1032;
+}
+
+.layout-navbar-fixed .wrapper .brand-link {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    transition: width .3s ease-in-out;
+    width: 250px;
+    z-index: 1035;
+    height: 108px;
+}
+
+.brand-link .brand-image {
+    max-height: 100%!important;
+    width: 87%!important;
+    /* height: 200px; */
+}
+
+.layout-navbar-fixed.layout-fixed .wrapper .sidebar {
+    margin-top: calc(6rem + 1px);
+}
+
+.dropzone {
+    background: white;
+    border-radius: 5px;
+    border: 2px dashed #0177c1;
+    border-image: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.was-validated .select2:invalid, .select2-selection:invalid {
+    border-color: #dc3545;
+    padding-right: 2.25rem;
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}
+
+.dataTables_length{
+    float: left;
+}
+
+.html5buttons {
+    float: right;
+    margin-left: 10px;
+}
+div.dataTables_length {
+    float: left!important;
+}
+
+table.table.dataTable{
+    font-size: .85rem!important;
+}
+
+.swal2-close, .swal2-close:focus{
+    outline: 0;
+}
+
+.swal2-close:hover {
+    color: #000!important;
+}
+
+.navbar-purple {
+    background-color: #3c8dbc;
+}
+
+.sidebar-dark-purple .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-purple .nav-sidebar>.nav-item>.nav-link.active{
+    background-color: #0177c1;
+}
+
+.accent-purple .btn-link, .accent-purple a:not(.dropdown-item):not(.btn-app):not(.nav-link):not(.brand-link):not(.page-link) {
+    color: #fff;
+}
+
+.accent-purple .page-item.active .page-link, .accent-purple .page-item.active a {
+    background-color: #3c8dbc;
+    border-color: #3c8dbc;
+    color: #fff;
+}
+
+.accent-purple .page-item .page-link {
+    color: #0177c1;
+}
+
+.descripcion-banner{
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin-left: 116px;
+}
+
+p.titulo-banner {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    
+}
+
+p.subtitulo-banner {
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.estilos_modificar_label_porcentaje{
+    text-align: left !important;
+}
+.estilos_modificar_label_porcentaje label{
+    font-weight: 400 !important;
+    padding: .375rem .75rem !important;
+}
+.estilos_modificar_label label{
+    padding: .375rem .75rem !important;
+    font-weight: 400 !important;
+}
+
+.breadcrumb-item a,a.btn-default{
+    color: #3c8dbc!important;
+}
+
+.preload{
+    display: none;
+}
+
+.loading{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 1;
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.href-documentos{
+    color: #6f42c1!important;
+}
